@@ -57,7 +57,7 @@ public class InitDb {
 
         public void dbInit2() {
 
-            Member member = createMember("userB", "22222", "2", "부산");
+            Member member = createMember("userB", "부산", "2", "22222");
             em.persist(member);
 
             Book book1 = createBook("SPRING1 BOOK", 20000, 200);
