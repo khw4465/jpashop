@@ -16,4 +16,4 @@ spring:
 
 logging.level:
   org.hibernate.SQL: debug
-  org.hibernate.orm.jdbc.bind: trace #스프링부트 3.x 이상
+#  org.hibernate.orm.jdbc.bind: trace #스프링부트 3.x 이상
