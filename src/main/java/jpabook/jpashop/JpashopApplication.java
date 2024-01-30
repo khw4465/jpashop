@@ -10,10 +10,10 @@ public class JpashopApplication {
 
     public static void main(String[] args) { SpringApplication.run(JpashopApplication.class, args); }
 
-//    @Bean
-//    Hibernate5JakartaModule hibernate5JakartaModule() {
-//        Hibernate5JakartaModule hibernate5JakartaModule = new Hibernate5JakartaModule();
+    @Bean
+    Hibernate5JakartaModule hibernate5JakartaModule() {
+        Hibernate5JakartaModule hibernate5JakartaModule = new Hibernate5JakartaModule();
 //        hibernate5JakartaModule.configure(Hibernate5JakartaModule.Feature.FORCE_LAZY_LOADING, true);
-//        return hibernate5JakartaModule;
-//    }
+        return hibernate5JakartaModule;
+    }
 }
